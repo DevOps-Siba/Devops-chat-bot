@@ -61,6 +61,31 @@ APP_URL="http://localhost:3000"
 ---
 
 ## 3️⃣ Dockerize Application
+## Install Docker(Ubuntu)
+```bash
+sudo apt update
+sudo apt install -y docker.io
+```
+## Start & Enable Docker
+```bash
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+## Add User to Docker Group
+```bash
+sudo usermod -aG docker $USER
+```
+## Switch to Docker Group
+```bash
+newgrp docker
+```
+## Test
+
+```bash
+docker run hello-world
+```
+✅ Done! Now you can run Docker without `sudo`.
+
 
 ### Dockerfile
 
