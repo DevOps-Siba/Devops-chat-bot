@@ -274,6 +274,4 @@ User → Domain → Nginx → Docker Container → App
 ---
 
 # 👨‍💻 Author
-
-DevOps Deployment Practice Project
-
+DevOps-Siba 
